@@ -1,0 +1,138 @@
+.cart {
+  flex: 1 0 0;
+  min-height: auto;
+  background-color: var(--cart-color);
+
+
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cart-zakaz {
+margin: 37px 0px 0px;
+text-align: center;
+font-size: 32px;
+color:#494948
+}
+
+.cart-korzina p {
+font-size: 18px;
+  text-align: center;
+  color:#00878e ;
+  margin: 22px 0px 0px;
+  font-weight: 400;
+}
+/* lg-размер (<=1199px) */
+@media (max-width: 1280px) {
+  .cart {
+      background-color: none;
+  }
+  .wrapper{
+
+    flex-wrap: wrap;
+  }
+  
+  .slaider{
+
+
+    display: none;
+}
+.side-menu {
+  display: none;
+}
+.footer-block{
+
+  flex-wrap:wrap-reverse;
+
+
+} 
+}
+/* md-размер (<=991px) */
+@media (max-width: 1280px) {
+  .cart {
+      display: none;
+  }
+  .footer{
+
+    flex-wrap: wrap;
+  
+  
+  } 
+  
+  .side-menu {
+    display: none;
+}
+.slaider{
+
+
+  display: none;
+}
+.wrapper-pizza {
+
+  flex-wrap: wrap;
+  
+    }
+.footer-block-right{
+
+  display: none;
+}
+}
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  .side-menu {
+      display: none;
+  }
+  .wrapper{
+
+    flex-wrap: wrap;
+  }
+  .footer{
+
+    flex-wrap: wrap;
+  
+  
+  } 
+  
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .wrapper-pizza {
+
+    flex-wrap: wrap;
+    
+      }
+  
+
+}
+@media (max-width: 684px) {
+  
+.top-center{
+
+  display: none;
+}
+.wrapper-pizza {
+
+  flex-wrap: wrap;
+  
+    }
+
+  
+}
+/* @media (max-width: 684px) {
+  
+  .cart-menu-block{
+    display: none;
+  }
+  
+    
+  } */

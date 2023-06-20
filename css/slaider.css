@@ -1,0 +1,137 @@
+.slaider {
+  position: relative;
+background-color:var(--slaider-color);
+  display: flex;
+  height: 450px;
+}
+.button-knopa-right {
+background: transparent;
+border: 0px;
+}
+.button-knopa-left {
+  background: transparent;
+  border:0px;
+  
+   
+}
+
+.slaider-left {
+  flex: 1 0 0;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+}
+
+.slaider-left-knopka {
+  display: flex;
+  background: url(../img/1486485553-ago-arrow-arrow-left-back-previous-direction-left_81160.png) no-repeat;
+  width: 65px;
+  height: 65px;
+  margin-top: 35px;
+  cursor: pointer;
+   transform: rotate(0deg);
+}
+.slaider-left-knopka:hover {
+  background: url(../img/icons/1486485553-ago-arrow-arrow-left-back-previous-direction-left_81160\ \(1\).svg) no-repeat;
+}
+
+.slaider-right {
+  flex: 1 0 0;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+
+  width: 57px;
+  height: 57px;
+  margin-top: 188px;
+  cursor: pointer;
+}
+.slaider-right-knopka {
+
+display: flex;
+background: url(../img/1486485553-ago-arrow-arrow-left-back-previous-direction-left_81160.png) no-repeat;
+width: 65px;
+height: 65px;
+margin-top: 20px;
+cursor: pointer;
+transform: rotate(0deg);
+  transform: scale(-1);
+}
+.slaider-right-knopka:hover {
+  background: url(../img/icons/1486485553-ago-arrow-arrow-left-back-previous-direction-left_81160\ \(1\).svg) no-repeat;
+  
+}
+
+.slaider-center {
+  overflow: hidden;
+  flex: 3 0 0;
+  display: flex;
+
+  
+  margin: 0px;
+  height: 450px;
+   width: auto; 
+}
+
+.slide {
+  min-width: 100%;
+  height: 100%;
+  
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  transition: 0.8s;
+}
+
+.dots {
+  display: flex;
+  width: auto;
+  position: absolute;
+  top: 95%;
+  right: 48%;
+  height: 20px;
+
+
+}
+
+.dot {
+  margin: 0px 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: grey;
+  
+}
+
+#d0 {
+  background-color: grey;
+}
+
+
+.bord-line-back{
+  width: 50%;
+  height: 4px;
+  background-color: grey;
+  /* display: flex; */
+  position: absolute;
+  top: 3%;
+  left: 26%;
+}
+
+.bord-line{
+  width: 16.6%;
+  height: 4px;
+  background-color: gray;
+  /* display: flex; */
+  position: absolute;
+  top: 3%;
+  left: 26%;
+}
+/* .slide {
+  transform: translateX(949px);
+
+
+
+} */
+

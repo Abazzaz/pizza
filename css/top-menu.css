@@ -1,0 +1,126 @@
+.top-menu {
+  flex: 1 0 0;
+   background-color: var(--nav-color); 
+
+  padding: 0px 130px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  /*box-sizing: border-box;*/
+}
+.top-menu a {
+  position: relative;
+  text-decoration: none;
+  
+  background-color: var(--top-menu-a-background-color);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  color: var(--top-menu-a-color);
+  margin: 0;
+  padding: 5px 20px;
+  font-size: 14px;
+  height: 10px;
+  text-shadow: 0 0 0.02em #666;
+  line-height: 1.618;
+  letter-spacing: normal;
+  /*word-spacing: normal*/
+}
+.top-menu a:hover {
+  color: #fff; /* Цвет текста */
+  background: #00878e; /* Цвет фона */
+}
+
+.menupizza {
+  list-style: none;
+}
+.menupizza li {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  .top-menu {
+    flex: 1 0 0;
+     background-color: var(--nav-color); 
+  margin-top: 73px;
+    padding: 0px 130px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /*box-sizing: border-box;*/
+    
+
+
+
+
+
+    
+  }
+
+  .top-menu a {
+    position: relative;
+    text-decoration: none;
+    
+    background-color: var(--top-menu-a-background-color);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    color: var(--top-menu-a-color);
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 14px;
+    height: 10px;
+    text-shadow: 0 0 0.02em #666;
+    line-height: 1.618;
+    letter-spacing: normal;
+    /*word-spacing: normal*/
+  }
+}
+
+
+@media (max-width: 1280px) {
+
+  .top-menu {
+    flex: 1 0 0;
+     background-color: var(--nav-color); 
+     margin-top: 70px;
+    padding: 0px 130px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /*box-sizing: border-box;*/
+
+
+
+
+
+
+    
+  }
+
+  .top-menu a {
+    position: relative;
+    text-decoration: none;
+    
+    background-color: var(--top-menu-a-background-color);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0.5px;
+    color: var(--top-menu-a-color);
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 14px;
+    height: 10px;
+    text-shadow: 0 0 0.02em #666;
+    line-height: 1.618;
+    letter-spacing: normal;
+    /*word-spacing: normal*/
+  }
+
+
+}

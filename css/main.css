@@ -1,0 +1,6 @@
+.main {
+  width: auto;
+  min-height: auto;
+  background-color: var(--main-color);
+  display: flex;
+}

@@ -1,0 +1,37 @@
+html[data-theme="light"] {
+--link-color:rgb(188, 28, 121);
+--padding-div: 20px  20px  20px;
+--header-color: rgb(235, 222, 230); 
+--footer-color:#00878e;
+--top-menu-a-color:#3C3C3B;
+--h1-color:#3C3C3B;
+--top-elements-a-color:#3C3C3B;
+--top-menu-a-background-color:#EBDEE6;
+--footer-end-color:#1D787D;
+--d1-color:rgb(253, 255, 252);
+--cart-color:#FFFFFF;
+--side-menu-color:#FFFFFF;
+--main-color:#FFFFFF;
+--slaider-color:#FFFFFF;
+--nav-color:#F6F6F6;
+}
+
+html[data-theme="dark"] {
+    --link-color:rgb(188, 28, 121);
+    --padding-div: 20px  20px  20px;
+    --header-color: rgb(36, 38, 36);
+    --nav-color:rgb(206, 212, 205);
+    --slaider-color:rgb(91, 93, 90);
+    
+    --main-color:rgb(36, 38, 36);
+    --side-menu-color:rgb(91, 93, 90);
+    --cart-color:rgb(91, 93, 90);
+    --d1-color:rgb(206, 212, 205);
+    --footer-color:rgb(91, 93, 90);
+    --footer-end-color:rgb(36, 38, 36);
+    --top-menu-a-background-color:rgb(159, 168, 157);
+    --top-menu-a-color:rgb(251, 253, 251);
+    --top-elements-a-color:rgb(251, 253, 251);
+    --h1-color:rgb(251, 253, 251);
+    }
+    

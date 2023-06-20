@@ -1,0 +1,66 @@
+
+
+ .side-menu {
+  flex: 1 0 0;
+ 
+  
+  width: auto;
+  
+  height: 1855px;
+  border-right: 1px solid #F6F6F6;
+} 
+/* * {box-sizing: border-box;}
+body{margin: 0;}
+div {padding: 30px 0} */
+form {
+  position: relative;
+  width: 260px;
+  margin: 1px auto;
+  left: 8px;
+}
+.d1 {
+  margin-top: 25px;
+  background-color: var(--d1-color);
+  
+  /* background: #ffffff; */
+
+}
+.d1 input {
+  width: 89%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #fdffff;
+  border-radius: 5px;
+  outline: none;
+  background: #ffffff;
+  color: #9E9C9C;
+}
+.d1 button {
+  position: absolute;
+    top: 2px;
+    right: 14px;
+    width: 42px;
+    height: 44px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
+}
+
+/* .input-text, input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+  background-color: #f2f2f2;
+  border: 0;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 13%);
+  box-sizing: border-box;
+  color: #43454b;
+  font-weight: 400;
+  outline: 0;
+  padding: 0.6180469716em;
+  webkit-appearance: none;
+} */
